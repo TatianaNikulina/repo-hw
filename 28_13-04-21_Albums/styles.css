@@ -1,0 +1,29 @@
+header {
+  text-transform: uppercase;
+  background-color: rgb(202, 157, 245);
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+* {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(208, 175, 238);
+}
+h2,
+p {
+  padding: 10px 0;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(88, 8, 8);
+}
+
+#left > article {
+  border: 5px groove whitesmoke;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}

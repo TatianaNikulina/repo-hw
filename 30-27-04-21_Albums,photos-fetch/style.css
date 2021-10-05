@@ -1,0 +1,23 @@
+header {
+  text-transform: uppercase;
+  background-color: rgb(202, 157, 245);
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+* {
+  margin: 0 auto;
+  background-color: rgb(208, 175, 238);
+  margin-left: 10px;
+}
+
+body > section {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 10%;
+}

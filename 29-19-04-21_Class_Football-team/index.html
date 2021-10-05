@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Class - Foolball Team</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+   
+  <header>Футбольный клуб</header>
+  <body>
+    <form action="">
+      <label for="fullName">ФИ игрока</label>
+      <input type="text" id="fullName" placeholder="Имя Фамилия" />
+      <br />
+      <label for="position">Позиция игрока</label>
+      <!--<input type="text" id="position" placeholder="Enter your position" /> -->
+      <select id="position">
+        <option>Выберите позицию игрока</option>
+        <option id="gk">Вратарь</option>
+        <option id="df">Защитник</option>
+        <option id="mf">Полузащитник</option>
+        <option id="fw">Нападающий</option>
+      </select>
+      <br />
+      <label for="teamName">Название команды</label>
+      <input
+        type="text"
+        id="teamName"
+        placeholder="Team name"
+        value="Спартак"
+      />
+      <br />
+      <label for="city">Город</label>
+      <input type="text" id="city" placeholder="City" value="Москва" />
+      <br />
+      <button type="submit">Добавить</button>
+    </form>
+    <section id="up"></section>
+    <section id="down"></section>
+    <script src="class-use.js"></script>
+  </body>
+</html>

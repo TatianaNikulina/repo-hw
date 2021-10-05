@@ -1,0 +1,32 @@
+* {
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+header {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+
+body {
+  background-image: url(https://static6.depositphotos.com/1137361/637/i/600/depositphotos_6379691-stock-photo-soccer-football-on-grass-field.jpg);
+  background-repeat: no-repeat;
+}
+
+form {
+  text-align: left;
+  font-size: large;
+}
+
+form * {
+  margin-bottom: 10px;
+}
+
+form > label {
+  color: aliceblue;
+}
+
+section {
+  color: white;
+}

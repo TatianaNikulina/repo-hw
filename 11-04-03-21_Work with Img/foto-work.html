@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>The object-fit Property</h1>
+
+    <h2>No object-fit:</h2>
+    <img src="cat.jpg" alt="#>
+
+    <h2>object-fit: fill (this is default):</h2>
+    <img class="fill" src="cat.jpg" alt="#" />
+
+    <h2>object-fit: contain:</h2>
+    <img class="contain" src="cat.jpg" alt="#" />
+
+    <h2>object-fit: cover:</h2>
+    <img class="cover" src="cat.jpg" alt="#" />
+
+    <h2>object-fit: scale-down:</h2>
+    <img class="scale-down" src="cat.jpg" alt="#" />
+
+    <h2>object-fit: none:</h2>
+    <img class="none" src="cat.jpg" alt="#" />
+
+    <h2>object-fit: none + move:</h2>
+    <img class="none2" src="cat.jpg" alt="#" />
+
+    <h2>2 images - Not Using object-fit</h2>
+    <p>
+      Here we do not use "object-fit", so when we resize the browser window, the
+      aspect ratio of the images will be destroyed:
+    </p>
+    <div class="images">
+      <img src="cat.jpg" alt="#" />
+      <img src="puppy.jpg" alt="#" />
+    </div>
+
+    <h2>Using object-fit</h2>
+    <p>
+      Here we use "object-fit: cover;", so when we resize the browser window,
+      the aspect ratio of the images is preserved:
+    </p>
+    <div class="images2">
+      <img src="cat.jpg" alt="#" />
+      <img src="puppy.jpg" alt="#" />
+    </div>
+  </body>
+</html>

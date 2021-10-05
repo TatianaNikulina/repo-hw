@@ -1,0 +1,168 @@
+/* или тут импортируем шрифты или в .html 
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes:regular); */
+
+body {
+  background-color: #61a734;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Great Vibes', cursive;*/
+}
+
+.section1 {
+  background-color: #e3effb;
+}
+.navbar-custom {
+  background-color: #e3effb;
+}
+/* .navbar-toggler-icon {
+  color: #61a734;
+} */
+hr {
+  margin: 0;
+  background-color: white;
+  height: 3px;
+}
+.fix {
+  max-width: 200px;
+}
+.section1 .card {
+  background-color: #e3effb;
+}
+.section1 .card-title {
+  margin-top: 50px;
+  color: #61a734;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 30%;
+}
+.section1 .card-subtitle {
+  font-family: "Great Vibes";
+  color: #ff5a00;
+  font-size: 46px;
+  font-weight: 500;
+}
+.section1 .card-text {
+  font-size: 12px;
+  font-style: italic;
+  width: 80%;
+}
+.section1 .btn {
+  background-color: #61a734;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 34px;
+  margin-bottom: 30px;
+  border: none;
+}
+/*    ------- section2 --------   */
+.section2 {
+  padding: 50px 0;
+  background-color: #61a734;
+  color: white;
+  text-align: center;
+}
+.section2 .row > div {
+  margin-bottom: 30px;
+}
+.section2 .picture1 {
+  background-image: url("https://images01.nicepage.io/65/2b/652bc9b2dcce745a19ac603f9244437e.jpeg");
+  background-size: cover;
+}
+.section2 .picture2 {
+  background-image: url("https://images01.nicepage.io/d2/7c/d27c2b2bee81bfc4188c5634810a6de9.jpeg");
+  background-size: cover;
+}
+
+.section2 .picture3 {
+  background-image: url("https://images01.nicepage.io/89/0d/890d444c69976b82ac9720c8a77e0795.jpeg");
+  background-size: cover;
+}
+
+.top-text {
+  padding: 0 20px 20px 20px;
+  font-style: italic;
+  font-size: 14px;
+}
+.section2 .ikon {
+  color: #61a734;
+  font-size: 30px;
+}
+.section2 .title {
+  color: #000;
+}
+.section2 .descr {
+  font-style: italic;
+  color: #000;
+  font-size: 12px;
+}
+/*    ------- section3 --------   */
+.section3 {
+  background-image: url("https://images03.nicepage.io/c461c07a441a5d220e8feb1a/9f941eae14d95bd2951ee90e/bg6.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  min-height: 400px;
+}
+.section3 .card {
+  width: 50%;
+  min-height: 400px;
+}
+.section3 .card-title {
+  margin-top: 70px;
+  color: #61a734;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 30%;
+}
+.section3 .card-subtitle {
+  font-family: "Great Vibes";
+  color: #ff5a00;
+  font-size: 42px;
+  font-weight: 500;
+}
+.section3 .card-text {
+  font-size: 12px;
+  font-style: italic;
+}
+.section3 .btn {
+  background-color: #ff5a00;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 34px;
+  margin-bottom: 30px;
+  border: none;
+  margin-bottom: 70px;
+}
+
+/*    ------- section4 --------   */
+.section4 {
+  background-color: #61a734;
+  color: white;
+  text-align: center;
+}
+.section4 .top-title {
+  margin-top: 50px;
+}
+.section4 .top-text {
+  margin: 20px 0;
+}
+.section4 .row > div {
+  color: #000;
+}
+.section4 .title {
+  margin-top: 10px;
+  color: #61a734;
+  font-weight: 700;
+}
+.section4 .descr {
+  font-size: 10px;
+  font-style: italic;
+}
+/*    ------- section5 --------   */
+.section5 {
+  background-color: white;
+  min-height: 200px;
+}

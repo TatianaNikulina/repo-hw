@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://images01.nicepage.io/26/af/26afbfd6f4b0f7d2c0352d2c78f559db.jpeg);
+  background-position: center;
+  min-height: 500px;
+}
+
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.header-list {
+  /* margin-bottom: 20px; */
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 9px;
+  list-style: none;
+  margin-bottom: 120px;
+  cursor: pointer;
+}
+.header-list li {
+  margin-right: 5px;
+}
+.header-list li:first-child {
+  margin-right: 65px;
+  font-size: 12px;
+  /* display: flex;
+  align-self: flex-start;  */
+}
+.header-list li:last-child {
+  margin-right: 0;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 0 0 30px;
+}
+
+/* ---------------section 2 -----------------*/
+
+.section2 {
+  font-family: "Open Sans", sans-serif;
+  min-height: 800px;
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: -70px;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  background-color: white;
+  border: 0.5px solid gainsboro;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card4 {
+  margin-bottom: 50px;
+}
+
+.card-ikon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ff214f;
+  color: white;
+  margin-bottom: 10px;
+  padding: 11px;
+  font-size: 20px;
+  margin: 0 40%;
+}
+
+.card-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.card-info {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #808080;
+}
+
+/* ---------------section 3 -----------------*/
+
+.section3 {
+  background-image: url("https://images02.nicepage.io/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg");
+  /* background-position: 20% 50%; */
+  font-family: "Open Sans", sans-serif;
+}
+
+.ways {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.way1,
+.way2,
+.way3 {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.way-ikon {
+  color: #ff214f;
+}
+
+.way-title,
+.way-ikon {
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 630px;
+  }
+  .title {
+    width: 300px;
+  }
+  .header-list li {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .header-list li:first-child {
+    font-size: 18px;
+    margin-right: 210px;
+  }
+  /* ---------------section 2 -----------------*/
+
+  .section2 {
+    min-height: 420px;
+  }
+  .cards {
+    width: 630px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card4 {
+    margin-top: 20px;
+  }
+  /* ---------------section 3 -----------------*/
+  .section3 {
+    min-height: 500px;
+  }
+  .way1 {
+    min-height: 200px;
+  }
+  .way2,
+  .way3 {
+    width: 280px;
+    top: 270px;
+  }
+
+  .way2and3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 800px;
+  }
+  .title {
+    width: 400px;
+  }
+  .header-list li {
+    margin-right: 12px;
+    font-size: 18px;
+  }
+  .header-list li:first-child {
+    font-size: 20px;
+    margin-right: 330px;
+  }
+  /* ---------------section 2 -----------------*/
+  .section2 {
+    min-height: 300px;
+  }
+  .cards {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .cards > div {
+    width: 190px;
+  }
+  .card-ikon {
+    margin: 0 30%;
+  }
+  .card4 > .card-title,
+  .card-info {
+    margin-bottom: 23px;
+  }
+  /* ---------------section 3 -----------------*/
+
+  .ways {
+    margin-left: 40%;
+  }
+  .way2,
+  .way3 {
+    width: 45%;
+  }
+  .way2and3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

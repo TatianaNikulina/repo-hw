@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+  </head>
+  <style>
+    .ex1 p {
+      color: red;
+    }
+    .ex1 > p {
+      color: green;
+    }
+    /*  следующий элекмент сразу за всем ex1 */
+    .ex1 + div {
+      width: 30px;
+      height: 30px;
+      background-color: aqua;
+      margin-bottom: 10px;
+    }
+    .box {
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+    }
+    .green {
+      border: 3px solid green;
+    }
+    .red {
+      background-color: red;
+    }
+    .green.red {
+      background-color: green;
+      border: 3px solid red;
+    }
+
+    .title {
+      font-size: 25px;
+    }
+
+    .section1 .title {
+      color: red;
+    }
+
+    .section2 .title {
+      color: green;
+    }
+  </style>
+  <body>
+    <div class="ex1">
+      <div class="ex2">
+        <!--идем к потомку .ex2 от .ex1 -->
+        <p>Lorem, ipsum.</p>
+        <!-- к любому параграфу доступ такой .ex1 p -->
+      </div>
+      <p>Lorem, ipsum dolor.</p>
+      <!-- к прямому потомку обращаемся так .ex1 > p -->
+    </div>
+
+    <div></div>
+    <!-- к непосредственно следующему элементу за ex1 обращаемся так .ex1 + div -->
+
+    <div class="box green"></div>
+    <div class="box red"></div>
+    <div class="green red box"></div>
+
+    <div class="section1">
+      <div class="title">Hello</div>
+    </div>
+
+    <div class="section2">
+      <div class="title">World</div>
+    </div>
+  </body>
+</html>
